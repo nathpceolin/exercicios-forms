@@ -1,0 +1,172 @@
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #e6e6f0;
+}
+
+body::before {
+  content: "";
+  width: 100%;
+  height: 440px;
+  background: #535971;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#pagina {
+  width: 750px;
+  margin: 0 auto;
+}
+
+header {
+  color: #ffffff;
+  width: 420px;
+  margin-top: 140px;
+  margin-bottom: 58px;
+}
+
+header h1 {
+  font-family: "Staatliches", sans-serif;
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+header p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+form {
+  background: #ffffff;
+  padding: 64px;
+  border-radius: 20px 20px 0 0;
+  color: #535971;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px; 
+} 
+
+fieldset legend {
+  font-family: "Staatliches", sans-serif;
+  font-size: 24px;
+  line-height: 34px;
+  border-bottom: 1px solid #e6e6f0;
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.nome-sobrenome {
+  display: flex;
+  gap: 20px;
+}
+
+.nome-sobrenome > div:nth-child(1) {
+  width: 50%;
+}
+.nome-sobrenome > div:nth-child(2) {
+  width: 50%;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; 
+}
+
+.input-wrapper label {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.input-wrapper label span {
+  color: #8f93a3;
+  margin-left: 4px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.input-wrapper input {
+  height: 45px;
+  border: 1px solid #e6e6f0;
+  background: #fafafc;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #737177;
+  padding: 0 10px;
+}
+
+h2 {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  margin-bottom: 8px;
+}
+
+.bloco {
+  margin-top: 32px;
+}
+
+.data-hora {
+  display: flex;
+}
+
+.data-hora > div:nth-child(1) {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.data-hora > div:nth-child(2) {
+  width: 25%;
+}
+
+.data-hora > div:nth-child(3) {
+  width: 25%;
+  margin-left: 10px;
+}
+
+footer {
+  background: #535971;
+  height: 140px;
+  border-radius: 0 0 20px 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer input {
+  font-family: "Staatliches", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+  background: #ff5374;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  height: 56px;
+  width: 600px;
+}
+
+footer input:hover {
+  background: #df254a;
+} 
